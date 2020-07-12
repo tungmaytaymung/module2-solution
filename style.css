@@ -1,0 +1,73 @@
+.topic {
+    text-align: center;
+}
+
+.div{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+}
+
+.div1, .div2, .div3 {
+    float: left;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: #999999;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 55px 3% 3% 3%;
+}
+
+.div div div {
+    float: right;
+    position: relative;
+    border: 1px solid black;
+    height: 20px;
+    padding: 2% 5%;
+    margin: 0;
+    top: -1px;
+    right: -1px;
+}
+
+.chic {
+    background-color: #D59898; 
+}
+
+.beef {
+    background-color: #C14543;
+}
+
+.beef h3 {
+    color: white;
+}
+
+.sushi {
+    background-color: #E5D198;
+}
+
+@media (min-width: 992px) {
+    .div1, .div2, .div3{
+        width: 31%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .div1, .div2 {
+        width: 47.5%;
+    }
+
+    .div3 {
+        width: 97.3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .div1, .div2, .div3{
+        width: 98%;
+    }
+}
